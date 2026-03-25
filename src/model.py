@@ -10,7 +10,7 @@ from dataclasses import dataclass
 import torch
 from peft import LoraConfig, get_peft_model
 from transformers import (
-    AutoModelForVision2Seq,
+    AutoModelForImageTextToText,
     AutoProcessor,
     BitsAndBytesConfig,
     PreTrainedModel,
@@ -45,7 +45,7 @@ def require_cuda() -> torch.device:
         )
     device = torch.device("cuda")
     props = torch.cuda.get_device_properties(device)
-    print(f"GPU: {props.name} ({props.total_mem / 1024**3:.1f}GB)")
+    print(f"GPU: {props.name} ({props.total_memory / 1024**3:.1f}GB)")
     return device
 
 
@@ -54,7 +54,7 @@ def get_vram_report() -> VRAMReport:
     return VRAMReport(
         allocated_gb=torch.cuda.memory_allocated() / 1024**3,
         reserved_gb=torch.cuda.memory_reserved() / 1024**3,
-        total_gb=torch.cuda.get_device_properties(0).total_mem / 1024**3,
+        total_gb=torch.cuda.get_device_properties(0).total_memory / 1024**3,
     )
 
 
@@ -78,7 +78,7 @@ def load_vlm(
     model_id: str,
     *,
     quantize: bool = False,
-    torch_dtype: torch.dtype = torch.bfloat16,
+    dtype: torch.dtype = torch.bfloat16,
     trust_remote_code: bool = True,
 ) -> tuple[PreTrainedModel, AutoProcessor]:
     """Load a VLM and its processor from HuggingFace.
@@ -86,7 +86,7 @@ def load_vlm(
     Args:
         model_id: HuggingFace model identifier (e.g., "Qwen/Qwen2.5-VL-3B-Instruct").
         quantize: If True, load in 4-bit NF4 quantization for QLoRA.
-        torch_dtype: Precision for non-quantized loading. Default BF16.
+        dtype: Precision for non-quantized loading. Default BF16.
         trust_remote_code: Required by some models (e.g., Qwen).
 
     Returns:
@@ -97,11 +97,11 @@ def load_vlm(
     quantization_config = make_quantization_config() if quantize else None
 
     print(f"Loading model: {model_id}")
-    print(f"  dtype: {torch_dtype}, quantize: {quantize}")
+    print(f"  dtype: {dtype}, quantize: {quantize}")
 
-    model = AutoModelForVision2Seq.from_pretrained(
+    model = AutoModelForImageTextToText.from_pretrained(
         model_id,
-        torch_dtype=torch_dtype,
+        dtype=dtype,
         quantization_config=quantization_config,
         trust_remote_code=trust_remote_code,
         # If not quantized, explicitly place on GPU. BnB handles placement itself.
