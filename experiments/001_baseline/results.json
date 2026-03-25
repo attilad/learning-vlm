@@ -1,0 +1,90 @@
+{
+  "timestamp": "2026-03-25T21:03:11.163566+00:00",
+  "n_samples_per_task": 500,
+  "models": {
+    "Qwen/Qwen2.5-VL-3B-Instruct": {
+      "captioning": {
+        "accuracy": 0.4933,
+        "metric_name": "rouge_l",
+        "median_latency_ms": 430.0,
+        "mean_latency_ms": 440.0,
+        "p95_latency_ms": 682.0,
+        "peak_vram_gb": 7.07,
+        "tokens_per_sec": 39.3,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.712,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 107.0,
+        "mean_latency_ms": 115.0,
+        "p95_latency_ms": 150.0,
+        "peak_vram_gb": 7.11,
+        "tokens_per_sec": 21.2,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.8928,
+        "metric_name": "anls",
+        "median_latency_ms": 1023.0,
+        "mean_latency_ms": 1050.0,
+        "p95_latency_ms": 1487.0,
+        "peak_vram_gb": 10.20,
+        "tokens_per_sec": 6.7,
+        "n_samples": 500
+      },
+      "chart_qa": {
+        "accuracy": 0.770,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 199.0,
+        "mean_latency_ms": 220.0,
+        "p95_latency_ms": 357.0,
+        "peak_vram_gb": 7.34,
+        "tokens_per_sec": 23.6,
+        "n_samples": 500
+      }
+    },
+    "google/paligemma-3b-pt-224": {
+      "captioning": {
+        "accuracy": 0.3165993443119301,
+        "metric_name": "rouge_l",
+        "median_latency_ms": 60.69747998844832,
+        "mean_latency_ms": 78.54138471977785,
+        "p95_latency_ms": 132.87234801100567,
+        "peak_vram_gb": 5.488110542297363,
+        "tokens_per_sec": 55.46120705079823,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.47,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 46.33883002679795,
+        "mean_latency_ms": 47.95203372754622,
+        "p95_latency_ms": 57.791615021415055,
+        "peak_vram_gb": 5.49061918258667,
+        "tokens_per_sec": 43.251554496813405,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.06531529304029304,
+        "metric_name": "anls",
+        "median_latency_ms": 46.94331396603957,
+        "mean_latency_ms": 68.29262310441118,
+        "p95_latency_ms": 167.05705696949735,
+        "peak_vram_gb": 5.493881702423096,
+        "tokens_per_sec": 54.47147628686877,
+        "n_samples": 500
+      },
+      "chart_qa": {
+        "accuracy": 0.046,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 46.87796701909974,
+        "mean_latency_ms": 52.16577287053224,
+        "p95_latency_ms": 82.3027070146054,
+        "peak_vram_gb": 5.493128776550293,
+        "tokens_per_sec": 46.160535299195146,
+        "n_samples": 500
+      }
+    }
+  }
+}

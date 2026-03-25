@@ -1,0 +1,500 @@
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the mouse wireless?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "right", "references": ["left"], "prompt": "Answer the following question about the image briefly: What side of the light is the white van on?", "n_tokens": 2, "latency_s": 0.0476}
+{"prediction": "1", "references": ["7"], "prompt": "Answer the following question about the image briefly: How many bananas can be seen?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a toast?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "fire hydrant", "references": ["van"], "prompt": "Answer the following question about the image briefly: What is moving on the street?", "n_tokens": 4, "latency_s": 0.0699}
+{"prediction": "train", "references": ["train"], "prompt": "Answer the following question about the image briefly: What moving on tracks in the photograph?", "n_tokens": 2, "latency_s": 0.0477}
+{"prediction": "blue", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What color is her top?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "0", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many pigs?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a tourist attraction?", "n_tokens": 2, "latency_s": 0.0451}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the man have a helmet?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "person", "references": ["woman"], "prompt": "Answer the following question about the image briefly: Who is drying the child's hair?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "apartment building", "references": ["house"], "prompt": "Answer the following question about the image briefly: What is the building in the background?", "n_tokens": 3, "latency_s": 0.0563}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are all four of the cows feet on the road?", "n_tokens": 2, "latency_s": 0.0478}
+{"prediction": "few", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many pillows are on the sofas?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "walking", "references": ["boat"], "prompt": "Answer the following question about the image briefly: How are the people getting to land?", "n_tokens": 2, "latency_s": 0.0491}
+{"prediction": "2", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many people are in the picture?", "n_tokens": 2, "latency_s": 0.0469}
+{"prediction": "yes", "references": ["body"], "prompt": "Answer the following question about the image briefly: Is the mane or body hair darker?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there someone tied to the tracks?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "ball", "references": ["toy"], "prompt": "Answer the following question about the image briefly: What is the dog holding in its mouth?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "red", "references": ["red"], "prompt": "Answer the following question about the image briefly: What color is the truck?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "zebra", "references": ["zebra"], "prompt": "Answer the following question about the image briefly: What type of animal is this?", "n_tokens": 2, "latency_s": 0.0486}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does he have a hat on?", "n_tokens": 2, "latency_s": 0.0469}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this man playing golf?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many wheels are on the motorcycle?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Should this sport be done away from house structures?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "black", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color hat is he wearing?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "cat", "references": ["cat"], "prompt": "Answer the following question about the image briefly: What type of animal are these?", "n_tokens": 2, "latency_s": 0.0442}
+{"prediction": "lying", "references": ["laying down"], "prompt": "Answer the following question about the image briefly: What is the girl doing?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "yes", "references": ["sunny"], "prompt": "Answer the following question about the image briefly: Is this a sunny or overcast day?", "n_tokens": 2, "latency_s": 0.0494}
+{"prediction": "indoors", "references": ["indoors"], "prompt": "Answer the following question about the image briefly: Is the man indoors or outside?", "n_tokens": 3, "latency_s": 0.0583}
+{"prediction": "yellow", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What color is the tip of the birds' tails?", "n_tokens": 2, "latency_s": 0.0431}
+{"prediction": "tie", "references": ["controller"], "prompt": "Answer the following question about the image briefly: What is the object in the man's right hand?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "purple", "references": ["purple"], "prompt": "Answer the following question about the image briefly: What color is the man's shoes?", "n_tokens": 2, "latency_s": 0.0451}
+{"prediction": "computer", "references": ["computer"], "prompt": "Answer the following question about the image briefly: What is the cat sitting next to?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the lady older than Methuselah?", "n_tokens": 2, "latency_s": 0.0478}
+{"prediction": "0", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many pictures are on the wall?", "n_tokens": 2, "latency_s": 0.0439}
+{"prediction": "snow", "references": ["antlers"], "prompt": "Answer the following question about the image briefly: What is the chandelier made from?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the background a forest?", "n_tokens": 2, "latency_s": 0.0498}
+{"prediction": "video", "references": ["wii"], "prompt": "Answer the following question about the image briefly: What game system are the boys playing on?", "n_tokens": 2, "latency_s": 0.0626}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this person taking a selfie?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there water in the scene?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "yellow", "references": ["white"], "prompt": "Answer the following question about the image briefly: What color flowers are on the pillowcase?", "n_tokens": 2, "latency_s": 0.0469}
+{"prediction": "football", "references": ["kite flying"], "prompt": "Answer the following question about the image briefly: What sport are the kids playing?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there anything in the photo that would prevent a person from getting wet in the rain?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "4", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many sets of wheels does this bus have?", "n_tokens": 2, "latency_s": 0.0476}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is he playing baseball?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "tennis", "references": ["tennis"], "prompt": "Answer the following question about the image briefly: What game is this?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this an apartment building?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "kites", "references": ["kites"], "prompt": "Answer the following question about the image briefly: What is above the clouds?", "n_tokens": 3, "latency_s": 0.0587}
+{"prediction": "1", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many candles are on the cake?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "brown", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What color is the railing on the deck?", "n_tokens": 2, "latency_s": 0.0556}
+{"prediction": "taking off", "references": ["taxiing"], "prompt": "Answer the following question about the image briefly: What is the airplane doing?", "n_tokens": 3, "latency_s": 0.0562}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are these teddy bears made of wool?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "0", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many people are there?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "1", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many ties is the man wearing?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "off", "references": ["on"], "prompt": "Answer the following question about the image briefly: Is the cat jumping on or off the bed?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "0", "references": ["0"], "prompt": "Answer the following question about the image briefly: How many round boxes are polka dotted?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "mother and child", "references": ["family"], "prompt": "Answer the following question about the image briefly: What is the relationship?", "n_tokens": 4, "latency_s": 0.0683}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Do her bows have white dots?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "racket", "references": ["tennis racket"], "prompt": "Answer the following question about the image briefly: What is the man holding?", "n_tokens": 3, "latency_s": 0.0566}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the man standing up straight?", "n_tokens": 2, "latency_s": 0.0439}
+{"prediction": "cows", "references": ["cow"], "prompt": "Answer the following question about the image briefly: What kind of animal is pictured?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "black", "references": ["no sink"], "prompt": "Answer the following question about the image briefly: What color is the sink?", "n_tokens": 2, "latency_s": 0.0807}
+{"prediction": "train", "references": ["train"], "prompt": "Answer the following question about the image briefly: What is this vehicle?", "n_tokens": 2, "latency_s": 0.0493}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many are wearing red shirts?", "n_tokens": 2, "latency_s": 0.0484}
+{"prediction": "0", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many cakes are there?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "dark", "references": ["blue"], "prompt": "Answer the following question about the image briefly: What color is the water?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "background", "references": ["in stands"], "prompt": "Answer the following question about the image briefly: Where are the audience?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there any footprints?", "n_tokens": 2, "latency_s": 0.044}
+{"prediction": "surfer", "references": ["surfing"], "prompt": "Answer the following question about the image briefly: What is this man doing?", "n_tokens": 3, "latency_s": 0.0591}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there a dishwasher?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "black", "references": ["black"], "prompt": "Answer the following question about the image briefly: What is the color of the stove?", "n_tokens": 2, "latency_s": 0.0542}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the ocean shown?", "n_tokens": 2, "latency_s": 0.0486}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the bear upset?", "n_tokens": 2, "latency_s": 0.0507}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are there children in this household?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there a clock?", "n_tokens": 2, "latency_s": 0.0476}
+{"prediction": "background", "references": ["next to phone"], "prompt": "Answer the following question about the image briefly: Where is the USB port?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "close", "references": ["far"], "prompt": "Answer the following question about the image briefly: How far away is the barn?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "background", "references": ["couch"], "prompt": "Answer the following question about the image briefly: What is the blue fabric?", "n_tokens": 2, "latency_s": 0.0442}
+{"prediction": "0", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many sets of tires is the truck sitting on?", "n_tokens": 2, "latency_s": 0.0436}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is it twilight?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "green", "references": ["green"], "prompt": "Answer the following question about the image briefly: What color is the handle of the scissors?", "n_tokens": 2, "latency_s": 0.0443}
+{"prediction": "person", "references": ["excel"], "prompt": "Answer the following question about the image briefly: What program is running on the laptop?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "0", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many babies are in the photo?", "n_tokens": 2, "latency_s": 0.0502}
+{"prediction": "top", "references": ["none"], "prompt": "Answer the following question about the image briefly: What part of her wardrobe is out of place?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "single", "references": ["single"], "prompt": "Answer the following question about the image briefly: Is that a single lane or double lane road?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "model", "references": ["fifi"], "prompt": "Answer the following question about the image briefly: What does it say on the side of the plane?", "n_tokens": 2, "latency_s": 0.0512}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does the man have facial hair?", "n_tokens": 2, "latency_s": 0.0475}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the man wearing knee pads?", "n_tokens": 2, "latency_s": 0.0457}
+{"prediction": "nature", "references": ["dole"], "prompt": "Answer the following question about the image briefly: What brand are the bananas?", "n_tokens": 2, "latency_s": 0.0477}
+{"prediction": "going", "references": ["putting in"], "prompt": "Answer the following question about the image briefly: Is he putting the turkey in or taking it out of the oven?", "n_tokens": 2, "latency_s": 0.0492}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the girl going to clear the gate?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is it cloudy?", "n_tokens": 2, "latency_s": 0.049}
+{"prediction": "ball", "references": ["bat"], "prompt": "Answer the following question about the image briefly: What is the boy in the blue shorts holding?", "n_tokens": 2, "latency_s": 0.0443}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many planes are visible?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "water", "references": ["water"], "prompt": "Answer the following question about the image briefly: What used to be in the bottles the flowers are in?", "n_tokens": 2, "latency_s": 0.0457}
+{"prediction": "horses", "references": ["horses"], "prompt": "Answer the following question about the image briefly: What animals are these?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is he about to fall?", "n_tokens": 2, "latency_s": 0.0442}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this kid wanting to eat pizza?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "skiing", "references": ["skiing"], "prompt": "Answer the following question about the image briefly: What sport is this?", "n_tokens": 3, "latency_s": 0.1012}
+{"prediction": "0", "references": ["4"], "prompt": "Answer the following question about the image briefly: How many chairs?", "n_tokens": 2, "latency_s": 0.0624}
+{"prediction": "right", "references": ["right"], "prompt": "Answer the following question about the image briefly: Which side of the room has a window?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "brushing his teeth", "references": ["brushing teeth"], "prompt": "Answer the following question about the image briefly: What is the baby doing?", "n_tokens": 5, "latency_s": 0.0815}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Would you like to have bed like that?", "n_tokens": 2, "latency_s": 0.0507}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there more than one giraffe in this photo?", "n_tokens": 2, "latency_s": 0.0492}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the sun shining on the mountain?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "male", "references": ["male"], "prompt": "Answer the following question about the image briefly: What is the gender of the person in the black shirt?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the tail hairy?", "n_tokens": 2, "latency_s": 0.0507}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there anyone in the image?", "n_tokens": 2, "latency_s": 0.0475}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is someone calling on the phone?", "n_tokens": 2, "latency_s": 0.0522}
+{"prediction": "for sale", "references": ["shipping"], "prompt": "Answer the following question about the image briefly: Why are the bananas in a box?", "n_tokens": 3, "latency_s": 0.0578}
+{"prediction": "dell", "references": ["dell"], "prompt": "Answer the following question about the image briefly: What company makes the bigger monitor?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "right", "references": ["left"], "prompt": "Answer the following question about the image briefly: Which hand is shown?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the grass dead?", "n_tokens": 2, "latency_s": 0.0484}
+{"prediction": "0", "references": ["4"], "prompt": "Answer the following question about the image briefly: How many baby zebras are there?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are there people riding?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "banana", "references": ["banana"], "prompt": "Answer the following question about the image briefly: What kind of toy does the dog have?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is she wearing a coat?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this man standing upright?", "n_tokens": 2, "latency_s": 0.0439}
+{"prediction": "0", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many stop signs do you see?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "spoon", "references": ["spoon"], "prompt": "Answer the following question about the image briefly: What utensil is clearly shown?", "n_tokens": 2, "latency_s": 0.044}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the subway moving?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "white", "references": ["brown"], "prompt": "Answer the following question about the image briefly: What color is the hat?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "pizza", "references": ["pizza"], "prompt": "Answer the following question about the image briefly: What kind of food is this?", "n_tokens": 2, "latency_s": 0.0477}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are these pro surfers?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "1", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many different types of fruit is there?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "serve", "references": ["serve"], "prompt": "Answer the following question about the image briefly: What is he getting ready to do?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are vehicle owner's fond of these creatures?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "black", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color is the shirt?", "n_tokens": 2, "latency_s": 0.0497}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this dapple-gray?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "train", "references": ["train"], "prompt": "Answer the following question about the image briefly: What is this mode of transportation?", "n_tokens": 2, "latency_s": 0.0467}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the player using a backhand?", "n_tokens": 2, "latency_s": 0.0507}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is it in Winter?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "ski", "references": ["ski"], "prompt": "Answer the following question about the image briefly: What is the man helping the child do?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "people", "references": ["kite"], "prompt": "Answer the following question about the image briefly: What are the green ribbons attached to?", "n_tokens": 2, "latency_s": 0.0478}
+{"prediction": "0", "references": ["5"], "prompt": "Answer the following question about the image briefly: How many coasters are on the coffee table?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "yes", "references": ["68"], "prompt": "Answer the following question about the image briefly: What is the number on the battery?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "tennis racket", "references": ["racket"], "prompt": "Answer the following question about the image briefly: What is in the man's hand?", "n_tokens": 3, "latency_s": 0.0592}
+{"prediction": "0", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many bikes are there?", "n_tokens": 2, "latency_s": 0.0491}
+{"prediction": "name", "references": ["jackson-triggs"], "prompt": "Answer the following question about the image briefly: What is the brand of wine?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a winter scene?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "blow", "references": ["blow out candle"], "prompt": "Answer the following question about the image briefly: What is the young girl about to do?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "1", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many people are in the photo?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "american", "references": ["american"], "prompt": "Answer the following question about the image briefly: What kind of flag is hoisted on the boat?", "n_tokens": 2, "latency_s": 0.048}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does the man wear glasses?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "in background", "references": ["in person's hand"], "prompt": "Answer the following question about the image briefly: Where is the fork?", "n_tokens": 3, "latency_s": 0.0554}
+{"prediction": "banana", "references": ["banana split"], "prompt": "Answer the following question about the image briefly: What food in one the plate?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "foreground", "references": ["none"], "prompt": "Answer the following question about the image briefly: Where is the hydrant?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "standing", "references": ["outside"], "prompt": "Answer the following question about the image briefly: Where are the cows?", "n_tokens": 2, "latency_s": 0.062}
+{"prediction": "closed", "references": ["open"], "prompt": "Answer the following question about the image briefly: Are the scissors open or closed?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "1", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many surfboards are in the image?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "kite", "references": ["sticks"], "prompt": "Answer the following question about the image briefly: What are they using to make these?", "n_tokens": 2, "latency_s": 0.0509}
+{"prediction": "yes", "references": ["business"], "prompt": "Answer the following question about the image briefly: Is this a home or place of business?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Can you see a dog?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "0", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many items are on the wall?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "blue", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color is the boy's helmet?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "person", "references": ["photographer"], "prompt": "Answer the following question about the image briefly: Who took the picture?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "pm", "references": ["12:44"], "prompt": "Answer the following question about the image briefly: What time is it?", "n_tokens": 2, "latency_s": 0.0443}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this street straight?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the bench old?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "3", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many types of animals are in the photo?", "n_tokens": 2, "latency_s": 0.0437}
+{"prediction": "skinny", "references": ["necktie"], "prompt": "Answer the following question about the image briefly: What kind of tie is the gentlemen in the photo wearing?", "n_tokens": 2, "latency_s": 0.0439}
+{"prediction": "in background", "references": ["no"], "prompt": "Answer the following question about the image briefly: Where is a yellow triangle sign?", "n_tokens": 3, "latency_s": 0.0588}
+{"prediction": "city", "references": ["park"], "prompt": "Answer the following question about the image briefly: Where is the woman located?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "0", "references": ["13"], "prompt": "Answer the following question about the image briefly: What number is in the picture?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "afternoon", "references": ["8:00"], "prompt": "Answer the following question about the image briefly: What time is it?", "n_tokens": 2, "latency_s": 0.1944}
+{"prediction": "0", "references": ["0"], "prompt": "Answer the following question about the image briefly: How many arrows say 'toilet'?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this person playing the game alone?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "1", "references": ["left"], "prompt": "Answer the following question about the image briefly: If the rocket fence in the foreground fired, which plane would it hit?", "n_tokens": 2, "latency_s": 0.0481}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are the flowers indoors?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "red", "references": ["red"], "prompt": "Answer the following question about the image briefly: What color is the bus?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "purple", "references": ["purple"], "prompt": "Answer the following question about the image briefly: What color is the wall?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "daffodils", "references": ["daffodil"], "prompt": "Answer the following question about the image briefly: What kind of flowers are in the vase?", "n_tokens": 4, "latency_s": 0.0745}
+{"prediction": "0", "references": ["13"], "prompt": "Answer the following question about the image briefly: How many people can you see?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "street", "references": ["rotherhithe"], "prompt": "Answer the following question about the image briefly: What is the name of the street in the top right corner?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is it cold?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "colorful", "references": ["white"], "prompt": "Answer the following question about the image briefly: What color are flowers?", "n_tokens": 2, "latency_s": 0.05}
+{"prediction": "in background", "references": ["wall"], "prompt": "Answer the following question about the image briefly: Where is the lamp plugged in?", "n_tokens": 3, "latency_s": 0.0586}
+{"prediction": "wedding", "references": ["wedding"], "prompt": "Answer the following question about the image briefly: What event has taken place?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "muscle", "references": ["classic"], "prompt": "Answer the following question about the image briefly: What kind of car is it?", "n_tokens": 2, "latency_s": 0.0485}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the door closed?", "n_tokens": 2, "latency_s": 0.0481}
+{"prediction": "commercial", "references": ["colgate"], "prompt": "Answer the following question about the image briefly: What kind of toothpaste is advertised?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the truck has a ramp?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Did it rain recently?", "n_tokens": 2, "latency_s": 0.0493}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the boy sleeping?", "n_tokens": 2, "latency_s": 0.0488}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does this shower need a shower curtain?", "n_tokens": 2, "latency_s": 0.0489}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the cat standing?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "smiling", "references": ["holding remote"], "prompt": "Answer the following question about the image briefly: What is the boy doing?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "for protection", "references": ["cold"], "prompt": "Answer the following question about the image briefly: Why does the person wear a black long sleeve top?", "n_tokens": 3, "latency_s": 0.0589}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the train on the far right carry passengers?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "person", "references": ["boy"], "prompt": "Answer the following question about the image briefly: Who has the ball?", "n_tokens": 2, "latency_s": 0.0481}
+{"prediction": "floating", "references": ["swimming"], "prompt": "Answer the following question about the image briefly: What is the bird doing?", "n_tokens": 2, "latency_s": 0.0523}
+{"prediction": "background", "references": ["behind batter"], "prompt": "Answer the following question about the image briefly: Where is the jumper?", "n_tokens": 2, "latency_s": 0.0451}
+{"prediction": "green", "references": ["green"], "prompt": "Answer the following question about the image briefly: What color is the bag?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "green", "references": ["green"], "prompt": "Answer the following question about the image briefly: What color are these trucks?", "n_tokens": 2, "latency_s": 0.044}
+{"prediction": "only", "references": ["79"], "prompt": "Answer the following question about the image briefly: How many keys on the keyboard can you see in this photo?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this part of a desktop computer?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Would anything be in the way of someone trying to sit down?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the horse standing still?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are all the shelves full?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the couple relaxing?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "orange", "references": ["orange"], "prompt": "Answer the following question about the image briefly: What color are these flowers?", "n_tokens": 2, "latency_s": 0.0479}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the floor carpeted?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there a town nearby?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are the animals in the water?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a car accident?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "tabby", "references": ["tabby"], "prompt": "Answer the following question about the image briefly: What breed of cat is this?", "n_tokens": 3, "latency_s": 0.0573}
+{"prediction": "square", "references": ["round"], "prompt": "Answer the following question about the image briefly: What shape are the stools?", "n_tokens": 2, "latency_s": 0.0477}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the woman wearing a necklace?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "stop sign", "references": ["geyer springs"], "prompt": "Answer the following question about the image briefly: What is the Blvd name?", "n_tokens": 3, "latency_s": 0.0577}
+{"prediction": "white", "references": ["caucasian"], "prompt": "Answer the following question about the image briefly: What race does this baby appear to be?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the woman cold?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "house", "references": ["house"], "prompt": "Answer the following question about the image briefly: What is in the background?", "n_tokens": 2, "latency_s": 0.0501}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the pizza sliced?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "red", "references": ["red"], "prompt": "Answer the following question about the image briefly: What color is the hydrant?", "n_tokens": 2, "latency_s": 0.048}
+{"prediction": "0", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many people are in the picture?", "n_tokens": 2, "latency_s": 0.048}
+{"prediction": "desktop", "references": ["desktop"], "prompt": "Answer the following question about the image briefly: What kind of computer is this?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this meal healthy?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the tree as high as the church towers?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the girl sitting on a fire hydrant?", "n_tokens": 2, "latency_s": 0.048}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are the trees high?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "year", "references": ["yesterday"], "prompt": "Answer the following question about the image briefly: How long ago was this taken?", "n_tokens": 2, "latency_s": 0.0484}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the cat trying to catch a mouse?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "mound", "references": ["to left of frame"], "prompt": "Answer the following question about the image briefly: Where is the batter?", "n_tokens": 3, "latency_s": 0.0582}
+{"prediction": "yellow", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color is the counter?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "two", "references": ["1"], "prompt": "Answer the following question about the image briefly: Does the refrigerator have one or two doors?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the grass heavily grazed?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "baseball", "references": ["baseball"], "prompt": "Answer the following question about the image briefly: What is the sports?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a recent photograph?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are the bananas on a table?", "n_tokens": 2, "latency_s": 0.0476}
+{"prediction": "pink", "references": ["pink"], "prompt": "Answer the following question about the image briefly: What color is the rose?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "yes", "references": ["sf weekly free every wednesday"], "prompt": "Answer the following question about the image briefly: What does the sign say on the case?", "n_tokens": 2, "latency_s": 0.0439}
+{"prediction": "red", "references": ["orange"], "prompt": "Answer the following question about the image briefly: What color are the scissors?", "n_tokens": 2, "latency_s": 0.0433}
+{"prediction": "0", "references": ["0"], "prompt": "Answer the following question about the image briefly: How many fried eggs on the plate?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are clouds visible?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are there any cars on the road behind these girls?", "n_tokens": 2, "latency_s": 0.048}
+{"prediction": "pizza", "references": ["pizza"], "prompt": "Answer the following question about the image briefly: What meal does this look like?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "sea", "references": ["ocean"], "prompt": "Answer the following question about the image briefly: What decorates the top portion of the 'bowl'?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the area fenced?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "bed", "references": ["bed"], "prompt": "Answer the following question about the image briefly: What are the items laid on?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "yes", "references": ["jacket"], "prompt": "Answer the following question about the image briefly: How can you tell this is probably winter?", "n_tokens": 2, "latency_s": 0.0443}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are these animals real?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a major league team?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there a beach on the other shore?", "n_tokens": 2, "latency_s": 0.044}
+{"prediction": "cats", "references": ["nothing"], "prompt": "Answer the following question about the image briefly: What is in the man's ears?", "n_tokens": 2, "latency_s": 0.0481}
+{"prediction": "cat", "references": ["cat"], "prompt": "Answer the following question about the image briefly: What kind of animal is this?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "two", "references": ["1"], "prompt": "Answer the following question about the image briefly: Is the man using one board or two?", "n_tokens": 2, "latency_s": 0.0496}
+{"prediction": "soccer", "references": ["soccer"], "prompt": "Answer the following question about the image briefly: What sport is being played?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "desert", "references": ["africa"], "prompt": "Answer the following question about the image briefly: Where are these animals normally thought to be from?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "right", "references": ["straight ahead"], "prompt": "Answer the following question about the image briefly: Which way is stanford street?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "for transportation", "references": ["transportation"], "prompt": "Answer the following question about the image briefly: Why is the man riding the bicycle?", "n_tokens": 3, "latency_s": 0.0572}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there a fence?", "n_tokens": 2, "latency_s": 0.0504}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are his friends interested?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "2", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many different fruits in this bowl?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does this appear to be a historic place?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "pound", "references": ["strawberry"], "prompt": "Answer the following question about the image briefly: What kind of cake is this?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "right", "references": ["right"], "prompt": "Answer the following question about the image briefly: What way can't you turn?", "n_tokens": 2, "latency_s": 0.0467}
+{"prediction": "main", "references": ["toyota"], "prompt": "Answer the following question about the image briefly: Which sponsor's sign can be seen?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "yellow", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What is the color of the window curtains?", "n_tokens": 2, "latency_s": 0.0492}
+{"prediction": "3", "references": ["4"], "prompt": "Answer the following question about the image briefly: How many animals are there?", "n_tokens": 2, "latency_s": 0.0489}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this man eating a sandwich?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "right", "references": ["right"], "prompt": "Answer the following question about the image briefly: Is the person who is cutting these carrots right handed or left handed?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "3", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many tiers are on the cake?", "n_tokens": 2, "latency_s": 0.0497}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the window open?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is she looking for a birthday gift?", "n_tokens": 2, "latency_s": 0.0506}
+{"prediction": "1", "references": ["5"], "prompt": "Answer the following question about the image briefly: How many blue things are there?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "virgin", "references": ["virgin atlantic"], "prompt": "Answer the following question about the image briefly: What is the name of airplane?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are they in the living room?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the man using two hands?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does this appear to be an event?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "flower", "references": ["flower"], "prompt": "Answer the following question about the image briefly: What is in the vase?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "open", "references": ["rogers"], "prompt": "Answer the following question about the image briefly: What company's name is shown in the right corner?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "1", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many people are on the bike?", "n_tokens": 2, "latency_s": 0.0495}
+{"prediction": "frisbee", "references": ["frisbee"], "prompt": "Answer the following question about the image briefly: What object is the man about to catch?", "n_tokens": 3, "latency_s": 0.0563}
+{"prediction": "2", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many horses are on the vase?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "right", "references": ["left"], "prompt": "Answer the following question about the image briefly: Which side of the plate is the succotash on?", "n_tokens": 2, "latency_s": 0.0467}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the man who is riding the elephant a maharadja?", "n_tokens": 2, "latency_s": 0.0435}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the surfer wearing a wetsuit?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "lying", "references": ["sleeping"], "prompt": "Answer the following question about the image briefly: What is the cat doing?", "n_tokens": 2, "latency_s": 0.049}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the man at a restaurant?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "aluminum", "references": ["wood"], "prompt": "Answer the following question about the image briefly: What material is the bat made of?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Has the ball left the pitcher's hand?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "dirt", "references": ["gravel"], "prompt": "Answer the following question about the image briefly: What kind of road is the bike on?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there a shower?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are all the people sitting on the same bench?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "0", "references": ["0"], "prompt": "Answer the following question about the image briefly: How many people can be seen?", "n_tokens": 2, "latency_s": 0.0436}
+{"prediction": "pesto", "references": ["pesto"], "prompt": "Answer the following question about the image briefly: What type of sauce is on this pizza?", "n_tokens": 3, "latency_s": 0.0585}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the syrup sugar free?", "n_tokens": 2, "latency_s": 0.0484}
+{"prediction": "person", "references": ["person"], "prompt": "Answer the following question about the image briefly: Who sets the time on this clock?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "platform", "references": ["window"], "prompt": "Answer the following question about the image briefly: What is the square on the right?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there a dock?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the soda cup laying down?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "me", "references": ["man"], "prompt": "Answer the following question about the image briefly: Who is on the TV screen?", "n_tokens": 2, "latency_s": 0.0442}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a horse?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the water calm?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there a fire truck on the road?", "n_tokens": 2, "latency_s": 0.0502}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the body decapitated?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Can you smell the rain coming?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Have these pizzas been baked yet?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are the benches empty?", "n_tokens": 2, "latency_s": 0.0488}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this kid wearing a red shirt?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "raised", "references": ["cake"], "prompt": "Answer the following question about the image briefly: Are these risen or cake donuts?", "n_tokens": 2, "latency_s": 0.0465}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the plate on the table?", "n_tokens": 2, "latency_s": 0.0485}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the dog wet?", "n_tokens": 2, "latency_s": 0.0495}
+{"prediction": "2", "references": ["3"], "prompt": "Answer the following question about the image briefly: How many wheels?", "n_tokens": 2, "latency_s": 0.0806}
+{"prediction": "orange", "references": ["orange and white"], "prompt": "Answer the following question about the image briefly: What color is the uniform?", "n_tokens": 2, "latency_s": 0.0443}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does this orange look like it might be sour?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "0", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many pillows are pictured?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is anyone boarding the bus?", "n_tokens": 2, "latency_s": 0.0496}
+{"prediction": "1", "references": ["0"], "prompt": "Answer the following question about the image briefly: How many tomato slices are in the picture?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "overcast", "references": ["overcast"], "prompt": "Answer the following question about the image briefly: Overcast or sunny?", "n_tokens": 3, "latency_s": 0.059}
+{"prediction": "grass", "references": ["grass"], "prompt": "Answer the following question about the image briefly: What is the baby watching?", "n_tokens": 2, "latency_s": 0.0467}
+{"prediction": "0", "references": ["animal enclosure"], "prompt": "Answer the following question about the image briefly: Where does the cement doorway lead?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "chocolate", "references": ["chocolate"], "prompt": "Answer the following question about the image briefly: What flavor is the brown frosting?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Did you flush the toilet?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the book closed?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "food", "references": ["1369"], "prompt": "Answer the following question about the image briefly: What is on the man's shirt?", "n_tokens": 2, "latency_s": 0.0495}
+{"prediction": "stop", "references": ["stop"], "prompt": "Answer the following question about the image briefly: What does the large white letters say?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "clock", "references": ["clock"], "prompt": "Answer the following question about the image briefly: What is the structure in the back?", "n_tokens": 2, "latency_s": 0.0483}
+{"prediction": "shirt", "references": ["watch"], "prompt": "Answer the following question about the image briefly: What is the person wearing on their left arm?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "black", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color is her dress?", "n_tokens": 2, "latency_s": 0.0483}
+{"prediction": "man", "references": ["man"], "prompt": "Answer the following question about the image briefly: Who is riding the elephant?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "bicycle", "references": ["bike"], "prompt": "Answer the following question about the image briefly: What vehicle is displayed on the meter?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many people are in the photo?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the sky the limit?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "thick", "references": ["tan"], "prompt": "Answer the following question about the image briefly: What type of carpet is on the floor?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are there any buildings in this picture?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the water skier wearing a life vest?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "set", "references": ["lift lid"], "prompt": "Answer the following question about the image briefly: What would you need to do with the toilet before using it?", "n_tokens": 2, "latency_s": 0.0485}
+{"prediction": "drinking", "references": ["drinking"], "prompt": "Answer the following question about the image briefly: What is the giraffe doing?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "clock", "references": ["clocks"], "prompt": "Answer the following question about the image briefly: What is attached to two sides of the building?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "colorful", "references": ["pink"], "prompt": "Answer the following question about the image briefly: What color are the vases?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many giraffes in the picture?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "cone", "references": ["daisy"], "prompt": "Answer the following question about the image briefly: What type of flowers are these?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "umbrella", "references": ["sword"], "prompt": "Answer the following question about the image briefly: What is the rider holding under their left arm?", "n_tokens": 2, "latency_s": 0.0501}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the light lit up?", "n_tokens": 2, "latency_s": 0.0496}
+{"prediction": "no", "references": ["hair"], "prompt": "Answer the following question about the image briefly: What is on their heads?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "charging", "references": ["playing"], "prompt": "Answer the following question about the image briefly: What is the elephant on the right doing?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "e", "references": ["tam"], "prompt": "Answer the following question about the image briefly: What letter and number is this plane near?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "sheep", "references": ["sheep"], "prompt": "Answer the following question about the image briefly: What type of animal is this?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "1", "references": ["9"], "prompt": "Answer the following question about the image briefly: How many boys are there?", "n_tokens": 2, "latency_s": 0.0502}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a zoo?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "outside", "references": ["inside"], "prompt": "Answer the following question about the image briefly: Is this picture taken inside or outside?", "n_tokens": 2, "latency_s": 0.0457}
+{"prediction": "propeller", "references": ["propeller"], "prompt": "Answer the following question about the image briefly: What mechanism does this machine in the foreground use for propulsion?", "n_tokens": 3, "latency_s": 0.0621}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many men are standing next to each other?", "n_tokens": 2, "latency_s": 0.0521}
+{"prediction": "finger", "references": ["circle"], "prompt": "Answer the following question about the image briefly: What shape is the bread cut into?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "1", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many people are on bikes?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are there leaves on the front tree?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the woman appear to be having fun?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "0", "references": ["0"], "prompt": "Answer the following question about the image briefly: How many hotdogs are in the picture?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "1", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many types of food are on the plate?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is that a new car?", "n_tokens": 2, "latency_s": 0.0477}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does this train carry people?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "game", "references": ["tv"], "prompt": "Answer the following question about the image briefly: What is this man looking at?", "n_tokens": 2, "latency_s": 0.0509}
+{"prediction": "ski resort", "references": ["skiing"], "prompt": "Answer the following question about the image briefly: Where are these men going?", "n_tokens": 3, "latency_s": 0.0573}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is he on water ski's?", "n_tokens": 2, "latency_s": 0.05}
+{"prediction": "person", "references": ["cake"], "prompt": "Answer the following question about the image briefly: Who wins the contest for the best dessert?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the building in the background a skyscraper?", "n_tokens": 2, "latency_s": 0.0434}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are there any houses in the photo?", "n_tokens": 2, "latency_s": 0.0486}
+{"prediction": "bed", "references": ["bed"], "prompt": "Answer the following question about the image briefly: What is the animal laying?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "desktop", "references": ["monitor"], "prompt": "Answer the following question about the image briefly: What type of computer is in the image?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "twin", "references": ["4"], "prompt": "Answer the following question about the image briefly: How many engines does this plane have?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a truck?", "n_tokens": 2, "latency_s": 0.0464}
+{"prediction": "sign", "references": ["big weenies are better"], "prompt": "Answer the following question about the image briefly: What is the motto of the Big Weenie establishment?", "n_tokens": 2, "latency_s": 0.0487}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a rainforest?", "n_tokens": 2, "latency_s": 0.0489}
+{"prediction": "cattle", "references": ["cows"], "prompt": "Answer the following question about the image briefly: What are these animals?", "n_tokens": 2, "latency_s": 0.0476}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Do the shoes have laces on them?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does the giraffe look happy?", "n_tokens": 2, "latency_s": 0.0478}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the dusky sky make you feel a sense of awe to be alive?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the desk neat?", "n_tokens": 2, "latency_s": 0.0475}
+{"prediction": "phone", "references": ["phone"], "prompt": "Answer the following question about the image briefly: What is next to the keyboard?", "n_tokens": 2, "latency_s": 0.0491}
+{"prediction": "orange", "references": ["brown and orange"], "prompt": "Answer the following question about the image briefly: What color is the man's tie?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "eating", "references": ["nursing"], "prompt": "Answer the following question about the image briefly: What is the little elephant doing?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "girl", "references": ["boy"], "prompt": "Answer the following question about the image briefly: Which person is frowning?", "n_tokens": 2, "latency_s": 0.0442}
+{"prediction": "white", "references": ["white"], "prompt": "Answer the following question about the image briefly: What color is the building?", "n_tokens": 2, "latency_s": 0.0448}
+{"prediction": "colored", "references": ["jeans"], "prompt": "Answer the following question about the image briefly: What kind of pants is the person wearing?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "me", "references": ["no one"], "prompt": "Answer the following question about the image briefly: Who is on the bike?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the ground wet?", "n_tokens": 2, "latency_s": 0.0437}
+{"prediction": "light green", "references": ["red"], "prompt": "Answer the following question about the image briefly: What color is the second vehicle?", "n_tokens": 3, "latency_s": 0.0566}
+{"prediction": "flower", "references": ["vase"], "prompt": "Answer the following question about the image briefly: What object is directly outside the large window?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "yes", "references": ["water"], "prompt": "Answer the following question about the image briefly: Is this water or snow?", "n_tokens": 2, "latency_s": 0.0436}
+{"prediction": "number", "references": ["40"], "prompt": "Answer the following question about the image briefly: What is written on the bus at the top?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the girl in the back wearing pants?", "n_tokens": 2, "latency_s": 0.0495}
+{"prediction": "bird", "references": ["bird"], "prompt": "Answer the following question about the image briefly: What kind of animal is on the roof?", "n_tokens": 2, "latency_s": 0.0457}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is anyone on the beach?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "on", "references": ["on"], "prompt": "Answer the following question about the image briefly: Is the computer on or off?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "sink", "references": ["shelf"], "prompt": "Answer the following question about the image briefly: Where are the spray bottles?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "bowler", "references": ["baseball cap"], "prompt": "Answer the following question about the image briefly: What type of hat is the man wearing?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a recent photograph?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "single", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many knobs control the faucet?", "n_tokens": 2, "latency_s": 0.0485}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there toilet tissue on the wall?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are both of these computer monitors turned on?", "n_tokens": 2, "latency_s": 0.0493}
+{"prediction": "fat", "references": ["tabby"], "prompt": "Answer the following question about the image briefly: What kind of cat is this?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does the computer have a plug?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "yellow", "references": ["brown"], "prompt": "Answer the following question about the image briefly: What color are the walls?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "basketball", "references": ["basketball"], "prompt": "Answer the following question about the image briefly: What sport is this?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Do you see a blue surfboard?", "n_tokens": 2, "latency_s": 0.0455}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is it sunny?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Could this dock be in Baltimore?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "grey", "references": ["gray"], "prompt": "Answer the following question about the image briefly: What color is the sky?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are there any blueberries on the plate?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "1", "references": ["8"], "prompt": "Answer the following question about the image briefly: How many cupcakes are in the photo?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "pizza", "references": ["fish"], "prompt": "Answer the following question about the image briefly: What is painting of?", "n_tokens": 2, "latency_s": 0.045}
+{"prediction": "baseball", "references": ["bat"], "prompt": "Answer the following question about the image briefly: What is in the boy's hand standing on home plate?", "n_tokens": 2, "latency_s": 0.0493}
+{"prediction": "green", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What color is on the front of the train?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "in park", "references": ["field"], "prompt": "Answer the following question about the image briefly: Where is the person wearing yellow?", "n_tokens": 3, "latency_s": 0.0561}
+{"prediction": "1", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many books are pictured?", "n_tokens": 2, "latency_s": 0.0467}
+{"prediction": "asian", "references": ["asian"], "prompt": "Answer the following question about the image briefly: Are the elephants the Asian or the African variety?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "fedora", "references": ["fedora"], "prompt": "Answer the following question about the image briefly: What kind of hat is he wearing?", "n_tokens": 3, "latency_s": 0.0582}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this animal looking at you?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this plane descending?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "black", "references": ["gray"], "prompt": "Answer the following question about the image briefly: What color is the elephant?", "n_tokens": 2, "latency_s": 0.0478}
+{"prediction": "lounge", "references": ["living room"], "prompt": "Answer the following question about the image briefly: What room is this?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "kite", "references": ["kite"], "prompt": "Answer the following question about the image briefly: What is the boy jumping to catch?", "n_tokens": 2, "latency_s": 0.0487}
+{"prediction": "blue", "references": ["blue"], "prompt": "Answer the following question about the image briefly: What color is the sky?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "2", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many dogs in the picture?", "n_tokens": 2, "latency_s": 0.0529}
+{"prediction": "brown", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color is the dog's nose?", "n_tokens": 2, "latency_s": 0.0461}
+{"prediction": "banana", "references": ["banana"], "prompt": "Answer the following question about the image briefly: What type of fruit is the animal eating?", "n_tokens": 2, "latency_s": 0.0511}
+{"prediction": "video", "references": ["wii"], "prompt": "Answer the following question about the image briefly: What games system does the remote go to?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Has the ball been pitched?", "n_tokens": 2, "latency_s": 0.0463}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Do you need a goalie for this game?", "n_tokens": 2, "latency_s": 0.044}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a reception room?", "n_tokens": 2, "latency_s": 0.0469}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this person wearing a wetsuit?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are the bus's lights turned on?", "n_tokens": 2, "latency_s": 0.0437}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the sun about to set?", "n_tokens": 2, "latency_s": 0.0466}
+{"prediction": "checkered", "references": ["checkered"], "prompt": "Answer the following question about the image briefly: What is the design on the paper underneath the sandwiches?", "n_tokens": 3, "latency_s": 0.0566}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is anybody on the benches?", "n_tokens": 2, "latency_s": 0.0438}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is there poop in the toilet?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this food tasty?", "n_tokens": 2, "latency_s": 0.0486}
+{"prediction": "3", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many books on display are about birds?", "n_tokens": 2, "latency_s": 0.044}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the back chandelier off?", "n_tokens": 2, "latency_s": 0.0474}
+{"prediction": "planes", "references": ["plane"], "prompt": "Answer the following question about the image briefly: Are these birds or planes?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "city", "references": ["on street"], "prompt": "Answer the following question about the image briefly: Where is the hydrant?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Do these shoes appear worn?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are the players baseball pant dirty?", "n_tokens": 2, "latency_s": 0.0446}
+{"prediction": "2", "references": ["10"], "prompt": "Answer the following question about the image briefly: How many tires are shown in this photo?", "n_tokens": 2, "latency_s": 0.0451}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are all the cows grazing?", "n_tokens": 2, "latency_s": 0.0475}
+{"prediction": "summer", "references": ["summer"], "prompt": "Answer the following question about the image briefly: What season is it?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the man going uphill?", "n_tokens": 2, "latency_s": 0.0503}
+{"prediction": "white", "references": ["white"], "prompt": "Answer the following question about the image briefly: What color is the cat?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "skinny", "references": ["necktie"], "prompt": "Answer the following question about the image briefly: What type of tie is this?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "white", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color are the stripes on the boy's shirt?", "n_tokens": 2, "latency_s": 0.0479}
+{"prediction": "soda", "references": ["nothing"], "prompt": "Answer the following question about the image briefly: What is he drinking?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are these adult bears?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Do the animals like green leaves?", "n_tokens": 2, "latency_s": 0.0462}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Do any of these sheep have horns?", "n_tokens": 2, "latency_s": 0.0506}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the photo in black and white?", "n_tokens": 2, "latency_s": 0.0514}
+{"prediction": "me", "references": ["girl"], "prompt": "Answer the following question about the image briefly: Who has better form?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "food", "references": ["broccoli"], "prompt": "Answer the following question about the image briefly: What is the hamster eating?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "united states", "references": ["kenya"], "prompt": "Answer the following question about the image briefly: What country does the airplane operate out of?", "n_tokens": 3, "latency_s": 0.0575}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are there trees?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Does this bear have a fish in its mouth?", "n_tokens": 2, "latency_s": 0.0492}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this food sweet?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the room clean?", "n_tokens": 2, "latency_s": 0.0469}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a happy home?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a bear?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "city", "references": ["dodgers"], "prompt": "Answer the following question about the image briefly: What is the name of the team at bat?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "sugar", "references": ["sugar"], "prompt": "Answer the following question about the image briefly: What are the donuts coated with?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Are there any persons in the photo?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "yes", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are these very old-fashioned trains?", "n_tokens": 2, "latency_s": 0.0497}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are the girls feet touching the ground?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "yes", "references": ["pare"], "prompt": "Answer the following question about the image briefly: Which street sign can you read?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "red", "references": ["red"], "prompt": "Answer the following question about the image briefly: What color is the ground?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "blue", "references": ["blue"], "prompt": "Answer the following question about the image briefly: What kind of bird is perched on the branch?", "n_tokens": 2, "latency_s": 0.0454}
+{"prediction": "left", "references": ["left"], "prompt": "Answer the following question about the image briefly: What foot is off the sand of the man in Red Hat?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is the man holding a cologne in his hand?", "n_tokens": 2, "latency_s": 0.0473}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the knife sharp?", "n_tokens": 2, "latency_s": 0.0452}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this the correct way to play tennis?", "n_tokens": 2, "latency_s": 0.0467}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Are there any cars visible in this photo?", "n_tokens": 2, "latency_s": 0.0458}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a hospital room?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "flying", "references": ["kite flying"], "prompt": "Answer the following question about the image briefly: What activity is pictured?", "n_tokens": 2, "latency_s": 0.0505}
+{"prediction": "0", "references": ["1"], "prompt": "Answer the following question about the image briefly: How many vehicles are in the street?", "n_tokens": 2, "latency_s": 0.0482}
+{"prediction": "friend", "references": ["elephant"], "prompt": "Answer the following question about the image briefly: What does the dog have around his neck?", "n_tokens": 2, "latency_s": 0.0496}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a kitchen?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "black", "references": ["black"], "prompt": "Answer the following question about the image briefly: What color is the umbrella?", "n_tokens": 2, "latency_s": 0.0441}
+{"prediction": "traffic", "references": ["electricity"], "prompt": "Answer the following question about the image briefly: What are the cables used for?", "n_tokens": 2, "latency_s": 0.0488}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the dog having fun?", "n_tokens": 2, "latency_s": 0.0485}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is that a real giraffe?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is this a racer?", "n_tokens": 2, "latency_s": 0.0459}
+{"prediction": "1", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many ovens are there?", "n_tokens": 2, "latency_s": 0.0442}
+{"prediction": "pelicans", "references": ["seagulls"], "prompt": "Answer the following question about the image briefly: What type of birds are they?", "n_tokens": 3, "latency_s": 0.0581}
+{"prediction": "pitch", "references": ["shadow"], "prompt": "Answer the following question about the image briefly: What is cast?", "n_tokens": 2, "latency_s": 0.0477}
+{"prediction": "silver", "references": ["silver"], "prompt": "Answer the following question about the image briefly: What is the color of the fridge?", "n_tokens": 2, "latency_s": 0.046}
+{"prediction": "yellow", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What color is the Frisbee?", "n_tokens": 2, "latency_s": 0.047}
+{"prediction": "going", "references": ["city square event"], "prompt": "Answer the following question about the image briefly: Are people walking a city street or heading to a city square event?", "n_tokens": 2, "latency_s": 0.0496}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this a big city?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "standing", "references": ["nursing"], "prompt": "Answer the following question about the image briefly: What is the baby doing?", "n_tokens": 2, "latency_s": 0.0468}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the man's sock match his outfit?", "n_tokens": 2, "latency_s": 0.0449}
+{"prediction": "white", "references": ["white"], "prompt": "Answer the following question about the image briefly: What color is the wall?", "n_tokens": 2, "latency_s": 0.0453}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the person married?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "end", "references": ["beach"], "prompt": "Answer the following question about the image briefly: Where was this photo taken?", "n_tokens": 2, "latency_s": 0.0444}
+{"prediction": "no", "references": ["no"], "prompt": "Answer the following question about the image briefly: Is this commuter train in New York City?", "n_tokens": 2, "latency_s": 0.0445}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Can he play frisbee effectively with one hand?", "n_tokens": 2, "latency_s": 0.0483}
+{"prediction": "no", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Does the umbrella match the woman's outfit?", "n_tokens": 2, "latency_s": 0.0506}
+{"prediction": "0", "references": ["2"], "prompt": "Answer the following question about the image briefly: How many knives are in the knife block?", "n_tokens": 2, "latency_s": 0.0483}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is the fruit ripe yet?", "n_tokens": 2, "latency_s": 0.0456}
+{"prediction": "person", "references": ["no one"], "prompt": "Answer the following question about the image briefly: Who is talking on the phone?", "n_tokens": 2, "latency_s": 0.0471}
+{"prediction": "yellow", "references": ["yellow"], "prompt": "Answer the following question about the image briefly: What color is the train?", "n_tokens": 2, "latency_s": 0.0472}
+{"prediction": "toilet", "references": ["toilet"], "prompt": "Answer the following question about the image briefly: What is the woman sitting on?", "n_tokens": 2, "latency_s": 0.0447}
+{"prediction": "yes", "references": ["yes"], "prompt": "Answer the following question about the image briefly: Is there a device for measuring time on the table near the people?", "n_tokens": 2, "latency_s": 0.0451}
