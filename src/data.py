@@ -58,13 +58,15 @@ class TaskConfig:
 
 TASK_REGISTRY: dict[TaskType, TaskConfig] = {
     TaskType.CAPTIONING: TaskConfig(
-        dataset_id="nlphuji/flickr30k",
+        # Flickr8k has embedded PIL images and 5 captions per image.
+        # Flickr30k's HF dataset uses a legacy loading script (broken in datasets 4.x).
+        dataset_id="jxie/flickr8k",
         split="test",
         subset=None,
         prompt_template="Describe this image in one sentence.",
         image_column="image",
         question_column=None,
-        reference_column="caption",
+        reference_column="_captions",  # Synthetic — built from caption_0..caption_4
     ),
     TaskType.VQA: TaskConfig(
         dataset_id="merve/vqav2-small",
@@ -78,7 +80,7 @@ TASK_REGISTRY: dict[TaskType, TaskConfig] = {
     TaskType.DOC_QA: TaskConfig(
         dataset_id="lmms-lab/DocVQA",
         split="validation",
-        subset=None,
+        subset="DocVQA",
         prompt_template="Look at this document image and answer briefly: {question}",
         image_column="image",
         question_column="question",
@@ -120,6 +122,10 @@ def load_task(task: TaskType, n_samples: int = 500) -> list[TaskSample]:
     samples = []
     for row in ds:
         image = row[config.image_column]
+        # Some datasets (e.g. ChartQA) store images as raw bytes
+        if isinstance(image, bytes):
+            import io
+            image = Image.open(io.BytesIO(image))
         if not isinstance(image, Image.Image):
             raise TypeError(
                 f"Expected PIL Image in column '{config.image_column}', "
@@ -133,8 +139,13 @@ def load_task(task: TaskType, n_samples: int = 500) -> list[TaskSample]:
         else:
             prompt = config.prompt_template
 
-        # Normalize references to a list of strings
-        refs = row[config.reference_column]
+        # Normalize references to a list of strings.
+        # Flickr8k stores captions in separate columns (caption_0..caption_4),
+        # so we handle the synthetic "_captions" column specially.
+        if config.reference_column == "_captions":
+            refs = [row[f"caption_{i}"] for i in range(5) if f"caption_{i}" in row]
+        else:
+            refs = row[config.reference_column]
         if isinstance(refs, str):
             refs = [refs]
         elif isinstance(refs, list):
