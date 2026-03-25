@@ -36,9 +36,10 @@ RANK = 8
 NUM_EPOCHS = 3
 BATCH_SIZE = 2
 GRAD_ACCUM = 8  # Effective batch size = 16
-# ChartQA images produce 145-1534 tokens with Qwen's dynamic resolution.
-# P95 is ~1060, max is ~1534. Use 1536 to avoid truncating any samples.
-MAX_LENGTH = 1536
+# ChartQA images produce 145-1500+ tokens with Qwen's dynamic resolution.
+# P95 ~1060, P99 ~1300, but rare outliers reach ~1540+.
+# 2048 covers all samples with margin.
+MAX_LENGTH = 2048
 
 
 def run_lr_sweep(

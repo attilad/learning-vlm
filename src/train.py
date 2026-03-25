@@ -70,7 +70,7 @@ def train_vlm(
     num_epochs: int = 3,
     batch_size: int = 2,
     gradient_accumulation_steps: int = 8,
-    max_length: int = 1536,
+    max_length: int = 2048,
     lora_config: LoraConfig | None = None,
     warmup_ratio: float = 0.1,
     logging_steps: int = 5,
