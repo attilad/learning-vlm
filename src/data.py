@@ -165,6 +165,90 @@ def load_task(task: TaskType, n_samples: int = 500) -> list[TaskSample]:
     return samples
 
 
+def load_training_dataset(
+    task: TaskType,
+    n_train: int = 2000,
+    n_eval: int = 500,
+) -> tuple["Dataset", "Dataset"]:
+    """Load a task dataset formatted for TRL SFTTrainer (messages + images).
+
+    SFTTrainer's VLM collator expects each row to have:
+      - "messages": list of chat message dicts (user + assistant)
+      - "images": list of PIL Images
+
+    The collator handles chat template application, tokenization, and label creation.
+
+    Returns:
+        (train_dataset, eval_dataset) — both HuggingFace Datasets.
+    """
+    from datasets import Dataset as HFDataset
+
+    config = TASK_REGISTRY[task]
+    print(f"Loading training data for {task.value}: {config.dataset_id}")
+
+    # Load the train split for training, val/test split for eval.
+    # ChartQA has train/val/test; VQA has train/validation; DocVQA has train/validation/test.
+    train_split = "train"
+    eval_split = config.split  # Reuse the eval split from the registry
+
+    train_ds = load_dataset(config.dataset_id, name=config.subset, split=train_split)
+    eval_ds = load_dataset(config.dataset_id, name=config.subset, split=eval_split)
+
+    # Subsample
+    if len(train_ds) > n_train:
+        train_ds = train_ds.shuffle(seed=SEED).select(range(n_train))
+    if len(eval_ds) > n_eval:
+        eval_ds = eval_ds.shuffle(seed=SEED).select(range(n_eval))
+
+    print(f"  Train: {len(train_ds)}, Eval: {len(eval_ds)}")
+
+    def _to_sft_format(row: dict) -> dict:
+        """Convert a dataset row to SFTTrainer's messages + images format."""
+        # Get the image
+        img = row[config.image_column]
+        if isinstance(img, bytes):
+            import io
+            img = Image.open(io.BytesIO(img))
+        if isinstance(img, Image.Image):
+            img = img.convert("RGB")
+
+        # Build the question prompt
+        if config.question_column is not None:
+            prompt = config.prompt_template.format(question=row[config.question_column])
+        else:
+            prompt = config.prompt_template
+
+        # Get the answer — use first reference for training
+        if config.reference_column == "_captions":
+            answer = row.get("caption_0", "")
+        else:
+            ref = row[config.reference_column]
+            if isinstance(ref, list):
+                answer = str(ref[0]) if ref else ""
+            else:
+                answer = str(ref)
+
+        messages = [
+            {"role": "user", "content": [{"type": "image"}, {"type": "text", "text": prompt}]},
+            {"role": "assistant", "content": [{"type": "text", "text": answer}]},
+        ]
+
+        return {"messages": messages, "images": [img]}
+
+    # Map to SFT format. We can't use .map() easily because PIL images
+    # don't serialize well in Arrow, so we build lists and create new datasets.
+    def _convert_split(ds) -> HFDataset:
+        records = []
+        for row in ds:
+            records.append(_to_sft_format(row))
+        return HFDataset.from_list(records)
+
+    train_sft = _convert_split(train_ds)
+    eval_sft = _convert_split(eval_ds)
+
+    return train_sft, eval_sft
+
+
 def format_for_model(
     sample: TaskSample,
     processor: AutoProcessor,
