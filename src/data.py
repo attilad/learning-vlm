@@ -1,4 +1,216 @@
 """Dataset loading and formatting for VLM experiments.
 
-Placeholder — will be implemented before Experiment 1.
+Each task has a registry entry mapping to an HF dataset, prompt template,
+and column names. format_for_model() bridges the gap between task-agnostic
+samples and model-specific input formats (Qwen chat template vs PaliGemma flat).
 """
+
+import os
+from dataclasses import dataclass, field
+from enum import Enum
+
+from datasets import load_dataset
+from PIL import Image
+from transformers import AutoProcessor
+
+# Ensure HF cache is set before any dataset downloads
+os.environ.setdefault("HF_HOME", ".cache/huggingface")
+
+SEED = 42
+
+
+class TaskType(Enum):
+    CAPTIONING = "captioning"
+    VQA = "vqa"
+    DOC_QA = "doc_qa"
+    CHART_QA = "chart_qa"
+
+
+@dataclass
+class TaskSample:
+    """One evaluation example: an image, a prompt, and reference answers."""
+
+    image: Image.Image
+    prompt: str
+    references: list[str]
+    task: TaskType
+    metadata: dict = field(default_factory=dict)
+
+
+@dataclass
+class TaskConfig:
+    """How to load and format a task from HuggingFace."""
+
+    dataset_id: str
+    split: str
+    subset: str | None
+    prompt_template: str
+    # Column names vary across datasets — these map to TaskSample fields
+    image_column: str
+    question_column: str | None  # None for captioning (no question)
+    reference_column: str
+
+
+# ---------------------------------------------------------------------------
+# Task registry — one entry per task type.
+# These are small, public, HF-hosted datasets suitable for fast eval.
+# ---------------------------------------------------------------------------
+
+TASK_REGISTRY: dict[TaskType, TaskConfig] = {
+    TaskType.CAPTIONING: TaskConfig(
+        dataset_id="nlphuji/flickr30k",
+        split="test",
+        subset=None,
+        prompt_template="Describe this image in one sentence.",
+        image_column="image",
+        question_column=None,
+        reference_column="caption",
+    ),
+    TaskType.VQA: TaskConfig(
+        dataset_id="merve/vqav2-small",
+        split="validation",
+        subset=None,
+        prompt_template="Answer the following question about the image briefly: {question}",
+        image_column="image",
+        question_column="question",
+        reference_column="multiple_choice_answer",
+    ),
+    TaskType.DOC_QA: TaskConfig(
+        dataset_id="lmms-lab/DocVQA",
+        split="validation",
+        subset=None,
+        prompt_template="Look at this document image and answer briefly: {question}",
+        image_column="image",
+        question_column="question",
+        reference_column="answers",
+    ),
+    TaskType.CHART_QA: TaskConfig(
+        dataset_id="ahmed-masry/ChartQA",
+        split="test",
+        subset=None,
+        prompt_template="Based on the chart, answer briefly: {question}",
+        image_column="image",
+        question_column="query",
+        reference_column="label",
+    ),
+}
+
+
+def load_task(task: TaskType, n_samples: int = 500) -> list[TaskSample]:
+    """Load and format n_samples from a task dataset.
+
+    Uses a fixed seed for reproducible subsampling. All images are
+    converted to RGB PIL Images regardless of source format.
+    """
+    config = TASK_REGISTRY[task]
+
+    print(f"Loading {task.value}: {config.dataset_id} ({config.split})")
+
+    ds = load_dataset(
+        config.dataset_id,
+        name=config.subset,
+        split=config.split,
+    )
+
+    # Subsample with fixed seed for reproducibility
+    if len(ds) > n_samples:
+        ds = ds.shuffle(seed=SEED).select(range(n_samples))
+    print(f"  {len(ds)} samples loaded")
+
+    samples = []
+    for row in ds:
+        image = row[config.image_column]
+        if not isinstance(image, Image.Image):
+            raise TypeError(
+                f"Expected PIL Image in column '{config.image_column}', "
+                f"got {type(image)}. Dataset may need a custom adapter."
+            )
+        image = image.convert("RGB")
+
+        # Build the prompt — captioning has no question, others do
+        if config.question_column is not None:
+            prompt = config.prompt_template.format(question=row[config.question_column])
+        else:
+            prompt = config.prompt_template
+
+        # Normalize references to a list of strings
+        refs = row[config.reference_column]
+        if isinstance(refs, str):
+            refs = [refs]
+        elif isinstance(refs, list):
+            # Flickr30k has list of captions, DocVQA has list of answers
+            refs = [str(r) for r in refs]
+        else:
+            refs = [str(refs)]
+
+        samples.append(TaskSample(
+            image=image,
+            prompt=prompt,
+            references=refs,
+            task=task,
+            metadata={"dataset_id": config.dataset_id},
+        ))
+
+    return samples
+
+
+def format_for_model(
+    sample: TaskSample,
+    processor: AutoProcessor,
+    model_id: str,
+) -> dict:
+    """Convert a TaskSample into model-ready input tensors.
+
+    Dispatches on model family because Qwen uses a chat template
+    while PaliGemma uses a flat text+image call. Returns tensors
+    on CPU — caller moves to device.
+    """
+    model_id_lower = model_id.lower()
+
+    if "qwen" in model_id_lower:
+        return _format_qwen(sample, processor)
+    elif "paligemma" in model_id_lower:
+        return _format_paligemma(sample, processor)
+    elif "smolvlm" in model_id_lower:
+        return _format_smolvlm(sample, processor)
+    else:
+        # Fallback: try chat template first, then flat
+        try:
+            return _format_qwen(sample, processor)
+        except Exception:
+            return _format_paligemma(sample, processor)
+
+
+def _format_qwen(sample: TaskSample, processor: AutoProcessor) -> dict:
+    """Qwen2.5-VL uses a chat template with structured message dicts."""
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image"},
+                {"type": "text", "text": sample.prompt},
+            ],
+        }
+    ]
+    text = processor.apply_chat_template(messages, add_generation_prompt=True)
+    return processor(text=[text], images=[sample.image], return_tensors="pt", padding=True)
+
+
+def _format_paligemma(sample: TaskSample, processor: AutoProcessor) -> dict:
+    """PaliGemma uses a flat text prompt — the processor prepends image tokens."""
+    return processor(text=sample.prompt, images=sample.image, return_tensors="pt")
+
+
+def _format_smolvlm(sample: TaskSample, processor: AutoProcessor) -> dict:
+    """SmolVLM2 uses a chat template similar to Qwen."""
+    messages = [
+        {
+            "role": "user",
+            "content": [
+                {"type": "image"},
+                {"type": "text", "text": sample.prompt},
+            ],
+        }
+    ]
+    text = processor.apply_chat_template(messages, add_generation_prompt=True)
+    return processor(text=[text], images=[sample.image], return_tensors="pt", padding=True)
