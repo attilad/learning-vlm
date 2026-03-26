@@ -1,0 +1,98 @@
+{
+  "experiment": "002_lr_sweep",
+  "timestamp": "2026-03-25T21:40:21.146083+00:00",
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "task": "chart_qa",
+  "fixed": {
+    "rank": 8,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "num_epochs": 3,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "effective_batch_size": 16,
+    "max_length": 2048,
+    "n_train": 2000,
+    "n_eval": 500
+  },
+  "runs": {
+    "5e-05": {
+      "learning_rate": 5e-05,
+      "train": {
+        "output_dir": "experiments/002_lr_sweep/lr_5e-05",
+        "train_loss": 9.889437611897787,
+        "eval_loss": 7.517695426940918,
+        "train_samples": 2000,
+        "train_steps": 375,
+        "peak_vram_gb": 15.2502760887146,
+        "wall_time_s": 3821.1003667939804
+      },
+      "eval_generation": {
+        "accuracy": 0.656,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 243.15897200722247,
+        "mean_latency_ms": 296.88244895474054,
+        "p95_latency_ms": 764.4436280243099,
+        "peak_vram_gb": 7.35299825668335,
+        "tokens_per_sec": 22.0626043171671,
+        "n_samples": 500
+      }
+    },
+    "1e-04": {
+      "learning_rate": 0.0001,
+      "train": {
+        "output_dir": "experiments/002_lr_sweep/lr_1e-04",
+        "train_loss": 9.015499623616536,
+        "eval_loss": 7.329787254333496,
+        "train_samples": 2000,
+        "train_steps": 375,
+        "peak_vram_gb": 15.250546932220459,
+        "wall_time_s": 3665.0803480179748
+      },
+      "eval_generation": {
+        "accuracy": 0.728,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 251.77407899172977,
+        "mean_latency_ms": 281.52456913527567,
+        "p95_latency_ms": 518.2552249752916,
+        "peak_vram_gb": 7.354325771331787,
+        "tokens_per_sec": 18.477960967947993,
+        "n_samples": 500
+      }
+    },
+    "2e-04": {
+      "learning_rate": 0.0002,
+      "train": {
+        "output_dir": "experiments/002_lr_sweep/lr_2e-04",
+        "train_loss": 8.497791849772135,
+        "eval_loss": 7.256229400634766,
+        "train_samples": 2000,
+        "train_steps": 375,
+        "peak_vram_gb": 15.250546932220459,
+        "wall_time_s": 3697.7863970940234
+      },
+      "eval_generation": {
+        "accuracy": 0.712,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 235.1486759725958,
+        "mean_latency_ms": 239.26612485176884,
+        "p95_latency_ms": 382.8622580040246,
+        "peak_vram_gb": 7.354325771331787,
+        "tokens_per_sec": 19.534733564543064,
+        "n_samples": 500
+      }
+    }
+  },
+  "zero_shot": {
+    "accuracy": 0.77,
+    "metric_name": "relaxed_accuracy",
+    "median_latency_ms": 200.97297703614458,
+    "mean_latency_ms": 209.7399386074394,
+    "p95_latency_ms": 358.9488749857992,
+    "peak_vram_gb": 7.338466167449951,
+    "tokens_per_sec": 23.419478581967,
+    "n_samples": 500
+  }
+}
