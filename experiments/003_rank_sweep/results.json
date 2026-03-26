@@ -1,0 +1,107 @@
+{
+  "experiment": "003_rank_sweep",
+  "timestamp": "2026-03-26T01:47:13.632581+00:00",
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "task": "chart_qa",
+  "fixed": {
+    "learning_rate": 0.0001,
+    "target_modules": [
+      "q_proj",
+      "v_proj"
+    ],
+    "num_epochs": 3,
+    "batch_size": 2,
+    "gradient_accumulation_steps": 8,
+    "effective_batch_size": 16,
+    "max_length": 2048,
+    "n_train": 2000,
+    "n_eval": 500
+  },
+  "runs": {
+    "r4": {
+      "rank": 4,
+      "trainable_params": 921600,
+      "total_params": 3755544576,
+      "trainable_pct": 0.02453971671351026,
+      "train": {
+        "output_dir": "experiments/003_rank_sweep/rank_r4",
+        "train_loss": 9.39070381673177,
+        "eval_loss": 7.377668857574463,
+        "train_samples": 2000,
+        "train_steps": 375,
+        "peak_vram_gb": 15.23654317855835,
+        "wall_time_s": 3651.505125000025
+      },
+      "eval_generation": {
+        "accuracy": 0.722,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 241.6245109634474,
+        "mean_latency_ms": 275.9872402641922,
+        "p95_latency_ms": 550.2374129719101,
+        "peak_vram_gb": 7.349565029144287,
+        "tokens_per_sec": 20.8705300813406,
+        "n_samples": 500
+      }
+    },
+    "r8": {
+      "rank": 8,
+      "trainable_params": 1843200,
+      "total_params": 3756466176,
+      "trainable_pct": 0.04906739242792,
+      "train": {
+        "output_dir": "experiments/003_rank_sweep/rank_r8",
+        "train_loss": 9.013289001464845,
+        "eval_loss": 7.325170040130615,
+        "train_samples": 2000,
+        "train_steps": 375,
+        "peak_vram_gb": 15.250546932220459,
+        "wall_time_s": 3582.755928911967
+      },
+      "eval_generation": {
+        "accuracy": 0.746,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 244.65437000617385,
+        "mean_latency_ms": 265.1517063631909,
+        "p95_latency_ms": 510.61062898952514,
+        "peak_vram_gb": 7.354325771331787,
+        "tokens_per_sec": 19.671757242457254,
+        "n_samples": 500
+      }
+    },
+    "r16": {
+      "rank": 16,
+      "trainable_params": 3686400,
+      "total_params": 3758309376,
+      "trainable_pct": 0.09808665629127813,
+      "train": {
+        "output_dir": "experiments/003_rank_sweep/rank_r16",
+        "train_loss": 8.694935129801433,
+        "eval_loss": 7.274566173553467,
+        "train_samples": 2000,
+        "train_steps": 375,
+        "peak_vram_gb": 15.278012752532959,
+        "wall_time_s": 3926.5886841580505
+      },
+      "eval_generation": {
+        "accuracy": 0.74,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 247.0591770252213,
+        "mean_latency_ms": 260.209724048269,
+        "p95_latency_ms": 426.7322469968349,
+        "peak_vram_gb": 7.361192226409912,
+        "tokens_per_sec": 18.431286599844135,
+        "n_samples": 500
+      }
+    }
+  },
+  "zero_shot": {
+    "accuracy": 0.796,
+    "metric_name": "relaxed_accuracy",
+    "median_latency_ms": 203.53652501944453,
+    "mean_latency_ms": 210.46547039458528,
+    "p95_latency_ms": 355.7161269709468,
+    "peak_vram_gb": 7.338466167449951,
+    "tokens_per_sec": 23.338745262065434,
+    "n_samples": 500
+  }
+}
