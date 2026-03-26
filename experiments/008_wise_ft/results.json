@@ -1,0 +1,183 @@
+{
+  "experiment": "008_wise_ft",
+  "timestamp": "2026-03-26T13:06:57.999413+00:00",
+  "model_id": "Qwen/Qwen2.5-VL-3B-Instruct",
+  "adapter_path": "experiments/003_rank_sweep/rank_r8/final",
+  "config": {
+    "alphas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "n_samples": 500,
+    "eval_tasks": [
+      "chart_qa",
+      "doc_qa",
+      "vqa"
+    ]
+  },
+  "runs": {
+    "0.00": {
+      "chart_qa": {
+        "accuracy": 0.796,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 221.42739105038345,
+        "mean_latency_ms": 233.81580084597226,
+        "p95_latency_ms": 404.70687102060765,
+        "peak_vram_gb": 7.345332622528076,
+        "tokens_per_sec": 21.007989974278143,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.8927909092416455,
+        "metric_name": "anls",
+        "median_latency_ms": 1012.760707992129,
+        "mean_latency_ms": 1033.6490049625281,
+        "p95_latency_ms": 1547.999317990616,
+        "peak_vram_gb": 10.207354545593262,
+        "tokens_per_sec": 6.731491992537875,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.712,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 114.34011301025748,
+        "mean_latency_ms": 122.81161367765162,
+        "p95_latency_ms": 168.92149299383163,
+        "peak_vram_gb": 7.113211154937744,
+        "tokens_per_sec": 19.248993879397123,
+        "n_samples": 500
+      }
+    },
+    "0.25": {
+      "chart_qa": {
+        "accuracy": 0.8,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 219.76289397571236,
+        "mean_latency_ms": 227.901161134243,
+        "p95_latency_ms": 395.5459960270673,
+        "peak_vram_gb": 7.345332622528076,
+        "tokens_per_sec": 21.491772905513542,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.8957702120738895,
+        "metric_name": "anls",
+        "median_latency_ms": 1012.8133239923045,
+        "mean_latency_ms": 1030.6829339769902,
+        "p95_latency_ms": 1601.3245579670183,
+        "peak_vram_gb": 10.207354545593262,
+        "tokens_per_sec": 6.657721568671276,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.698,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 113.34376101149246,
+        "mean_latency_ms": 122.9857790506212,
+        "p95_latency_ms": 167.97244304325432,
+        "peak_vram_gb": 7.113211154937744,
+        "tokens_per_sec": 19.77464401798019,
+        "n_samples": 500
+      }
+    },
+    "0.50": {
+      "chart_qa": {
+        "accuracy": 0.788,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 219.55629001604393,
+        "mean_latency_ms": 231.21085697575472,
+        "p95_latency_ms": 418.08620101073757,
+        "peak_vram_gb": 7.345332622528076,
+        "tokens_per_sec": 21.68583286089277,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.8975282683398742,
+        "metric_name": "anls",
+        "median_latency_ms": 1016.5228099795058,
+        "mean_latency_ms": 1034.8965507195098,
+        "p95_latency_ms": 1586.5902539808303,
+        "peak_vram_gb": 10.207354545593262,
+        "tokens_per_sec": 6.816140217199217,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.68,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 114.76348398718983,
+        "mean_latency_ms": 128.96231880690902,
+        "p95_latency_ms": 176.55709898099303,
+        "peak_vram_gb": 7.113211154937744,
+        "tokens_per_sec": 19.97482694039457,
+        "n_samples": 500
+      }
+    },
+    "0.75": {
+      "chart_qa": {
+        "accuracy": 0.782,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 220.4202790162526,
+        "mean_latency_ms": 226.02837522723712,
+        "p95_latency_ms": 381.92525500198826,
+        "peak_vram_gb": 7.345332622528076,
+        "tokens_per_sec": 21.58136116802111,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.8709664668086454,
+        "metric_name": "anls",
+        "median_latency_ms": 1018.8082639942877,
+        "mean_latency_ms": 1042.7754456755938,
+        "p95_latency_ms": 1597.9693599510938,
+        "peak_vram_gb": 10.207354545593262,
+        "tokens_per_sec": 7.096446344884622,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.674,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 113.10856399359182,
+        "mean_latency_ms": 131.34411434526555,
+        "p95_latency_ms": 193.0068060173653,
+        "peak_vram_gb": 7.113211154937744,
+        "tokens_per_sec": 20.800322980734144,
+        "n_samples": 500
+      }
+    },
+    "1.00": {
+      "chart_qa": {
+        "accuracy": 0.746,
+        "metric_name": "relaxed_accuracy",
+        "median_latency_ms": 218.31997501431033,
+        "mean_latency_ms": 232.26932321535423,
+        "p95_latency_ms": 446.7604369856417,
+        "peak_vram_gb": 7.345332622528076,
+        "tokens_per_sec": 22.456689190779866,
+        "n_samples": 500
+      },
+      "doc_qa": {
+        "accuracy": 0.8364705756727093,
+        "metric_name": "anls",
+        "median_latency_ms": 1026.3982249889523,
+        "mean_latency_ms": 1064.534897587262,
+        "p95_latency_ms": 1735.9632879961282,
+        "peak_vram_gb": 10.207354545593262,
+        "tokens_per_sec": 7.398536222580142,
+        "n_samples": 500
+      },
+      "vqa": {
+        "accuracy": 0.66,
+        "metric_name": "vqa_accuracy",
+        "median_latency_ms": 115.29768898617476,
+        "mean_latency_ms": 141.85716135625262,
+        "p95_latency_ms": 230.7723829871975,
+        "peak_vram_gb": 7.113211154937744,
+        "tokens_per_sec": 21.317217763900445,
+        "n_samples": 500
+      }
+    }
+  }
+}
