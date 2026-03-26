@@ -218,13 +218,18 @@ def load_training_dataset(
         else:
             prompt = config.prompt_template
 
-        # Get the answer — use first reference for training
+        # Get the answer — randomly sample from references so the model
+        # learns that multiple answer formats are valid (not just the first).
+        # Fixed after Exp 002 showed format overfitting when always using ref[0].
         if config.reference_column == "_captions":
-            answer = row.get("caption_0", "")
+            import random as _rng
+            captions = [row[f"caption_{i}"] for i in range(5) if f"caption_{i}" in row]
+            answer = _rng.choice(captions) if captions else ""
         else:
             ref = row[config.reference_column]
             if isinstance(ref, list):
-                answer = str(ref[0]) if ref else ""
+                import random as _rng
+                answer = str(_rng.choice(ref)) if ref else ""
             else:
                 answer = str(ref)
 

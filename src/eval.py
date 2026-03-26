@@ -161,6 +161,24 @@ def _normalize_text(text: str) -> str:
     return text.strip()
 
 
+def _normalize_chart_answer(text: str) -> str:
+    """Normalize for ChartQA relaxed accuracy.
+
+    More forgiving than _normalize_text: strips trailing units and
+    punctuation that models often add (e.g. "8.87%" → "8.87",
+    "Red." → "red") while preserving hyphens in dates ("2020-21").
+    Added after Exp 002 showed format-sensitivity masking real accuracy.
+    """
+    text = text.lower().strip()
+    # Strip common trailing units/punctuation the model adds
+    text = re.sub(r"[%$€£]", "", text)
+    # Remove trailing periods/commas (but not mid-word ones like "3.14")
+    text = re.sub(r"[.,;:!?]+$", "", text)
+    # Collapse whitespace
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
 def compute_rouge_l(results: list[GenerationResult]) -> float:
     """ROUGE-L F1 for captioning.
 
@@ -279,10 +297,10 @@ def compute_relaxed_accuracy(results: list[GenerationResult], tolerance: float =
     """
     scores = []
     for r in results:
-        pred = _normalize_text(r.text)
+        pred = _normalize_chart_answer(r.text)
         matched = False
         for ref in r.sample.references:
-            ref_norm = _normalize_text(ref)
+            ref_norm = _normalize_chart_answer(ref)
             if pred == ref_norm:
                 matched = True
                 break
